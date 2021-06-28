@@ -1,0 +1,98 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Groceries
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Groceries</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-row>
+    <ion-item-sliding disabled>
+      <ion-item class="item-background-color">
+        <ion-col col-4>
+          <ion-label>Name</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>Quantity</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>Price</ion-label>
+        </ion-col>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="icon-only" name="trash"></ion-icon>
+          Delete
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-col col-4>
+          <ion-label>Milk</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>5</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>$2.49</ion-label>
+        </ion-col>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="icon-only" name="trash"></ion-icon>
+          Delete
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-col col-4>
+          <ion-label>Bread</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>2</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>$1.99</ion-label>
+        </ion-col>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="icon-only" name="trash"></ion-icon>
+          Delete
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-col col-4>
+          <ion-label>Cheese</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>6</ion-label>
+        </ion-col>
+        <ion-col col-4>
+          <ion-label>$3.50</ion-label>
+        </ion-col>
+      </ion-item>
+      <ion-item-options side="end">
+        <ion-item-option color="danger">
+          <ion-icon slot="icon-only" name="trash"></ion-icon>
+          Delete
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+  </ion-row>
+</ion-content>
